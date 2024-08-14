@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Index from './Routes/Index';
+import './assets/bootstrap.min.css'
 const App = () => {
   return (
     <div>
-      <h1>Hello I am Jorina</h1>
+    <Index/>
     </div>
   );
 };
